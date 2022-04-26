@@ -11,7 +11,7 @@ boton.onclick = () => {
       x.innerHTML = "Introduce un modulo mayor a 0"
     }
     else {
-      x.innerHTML = `<span style="color: red">${numero.value}</span> mod <span style="color: blue">${modulo.value}</span> = <span style="color: green">${resultado}</span>`
+      x.innerHTML = `<span style="color: red">${numero.value}</span> mod <span style="color: blue">${modulo.value}</span> = <span style="color: blue">${resultado}</span>`
   
           numero.value = "";
           modulo.value = "";
