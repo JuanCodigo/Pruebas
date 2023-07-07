@@ -14,7 +14,6 @@ boton.onclick = () => {
       x.innerHTML = `<span style="color: red">${numero.value}</span> mod <span style="color: blue">${modulo.value}</span> = <span style="color: green">${resultado}</span>`
   
           numero.value = "";
-          modulo.value = "";
           }
         }
       }
